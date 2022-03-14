@@ -1,0 +1,7 @@
+<button (click)="addBruce()">Dodaj bruce</button>
+
+<div>
+  <div *ngFor="let bruce of bruces$ | async ; let no = index">
+    {{ no + 1 }} {{bruce.name }} {{ bruce.email }}
+  </div>
+</div>
