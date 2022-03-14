@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "v1": "ng serve --project v1 --proxy-config projects/v1/proxy.conf.json",
-    "v2": "ng serve --project v2 --proxy-config projects/v2/proxy.conf.json --port 4300",
+    "v2": "ng serve --project v2 --port 4300",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

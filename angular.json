@@ -34,7 +34,7 @@
               "projects/v1/src/styles.scss"
             ],
             "scripts": [],
-            "baseHref": "/v1/"
+            "baseHref": "/"
           },
           "configurations": {
             "production": {
@@ -48,7 +48,7 @@
                   "type": "anyComponentStyle",
                   "maximumWarning": "2kb",
                   "maximumError": "4kb"
-                },
+                }
               ],
               "fileReplacements": [
                 {
